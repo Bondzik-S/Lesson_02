@@ -1,0 +1,91 @@
+h1{
+    color: brown;
+}
+h2{
+    color: yellow;
+}
+/* style title */
+p{
+    color: gold;
+}
+
+.green-text{
+    color: green;
+}
+.bold{
+    font-weight: bold;
+}
+.green-text.bold{
+    text-decoration: underline;
+}
+
+/* За допомогою ришітки обирають стиль обʼєкту з id */
+#main{
+    color: lightblue;
+}
+
+div{
+    color: #000000;
+}
+
+/* Зірочка * дозволяє стилізувати всі елементи на сторінці */
+/* *{
+    text-transform: uppercase;
+} */
+
+/* Для того, щоб не писати однакові стилі до елементів, достатньо вказати елементи через кому */
+h3,h4{
+    color: bisque;
+}
+
+p span{ /* Загуглити, що таке span */
+    color: red;
+}
+p>span{
+    
+}
+span+span+span{
+    color: orange; 
+}
+
+a[href="index.html"]{
+    color: pink
+}
+
+ul li:first-child{ /* first-child дозволяє стилізувати тальки перший    елемент списку last-child - останній */
+    font-size: 40px;
+}
+
+div p:last-child{
+    font-size: 30px;
+}
+
+ul li:nth-child(3) { /* дозволяє стилізувати обраний за порядковим номером обʼєкт */
+font-size: 50px;
+}
+
+.size{
+    width: 250px; /* Довжина */
+    height: 200px; /* Ширина */
+
+    padding: 20px 10px; /* Короткий формат запису */
+
+    /* padding-top: 20px; Відступ зверху
+    padding-left: 10px; Відступ зліва
+    padding-bottom: 25px; Відступ знизу
+    padding-right: 10px; Відступ справа */
+
+    margin-bottom: 100px; /* Відступи між обʼєктами */
+    /* margin: 50px 100px; */
+    margin: 50px auto;
+
+    border: 3px solid black;
+}
+
+.one{
+    color: red;
+}
+
+a[href="https://www.youtube.com/watch?v=LsVXUIhpfVk&t=6s&ab_channel=%D0%A1%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%A1%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3"]{
+    color: palevioletred;
+}
